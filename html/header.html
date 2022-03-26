@@ -1,0 +1,10 @@
+<div id="navbar">
+    <a onclick="clickNavHome()">Home</a>
+    <!-- để tránh các modal chồng lên nhau khi click 2 lần vào cùng 1 lúc hay chuyển đổi -->
+    <!-- có tác dụnng khi user là EMPLOYEE -->
+    <a onclick="closeModalAccount();closeModalDepartment();clickNavViewListDepartments()">View List Departments</a>
+    <a onclick=" closeModalDepartment();closeModalAccount(); clickNavViewListAccounts()">View List Accounts</a>
+    <!-- <a style="float: right;" onclick="logout()">Logout</a> -->
+    <img id="imgAvatar" style="float: right;  border-radius: 50%; margin:0% 1% 0% 0%" src="../image/266skin1.webp"   onclick="closeModalAccount();closeModalDepartment();clickNavViewUser()" >
+    <a id="fullname" style="float: right;" onclick="closeModalAccount();closeModalDepartment();clickNavViewUser()"></a>
+</div>

@@ -1,0 +1,101 @@
+
+button {
+  text-align: center;
+}
+button:focus {
+  outline: none;
+}
+button.btn-search {
+  background: hotpink;
+  border: none;
+  height: 30px;
+  font-size: 12px;
+  padding: 3px;
+  position: absolute;
+  width: 30px;
+}
+
+.sample {
+  float: left;
+  height: 50px;
+  margin: 0 8% 0 3%;
+  position: relative;
+  width: 34%;
+}
+.sample input {
+  border-radius: 15px;
+  right:0;
+  transition: all 0.3s ease-in-out;
+  width: 70%;
+
+}
+.sample input#input-search-department:focus {
+  width: 100%;
+
+}
+.sample input#input-search-account:focus{
+  width: 150%;
+
+}
+.sample input:focus ~ button {
+  background: hotpink;
+  color: #fff;
+}
+.sample button {
+  transition: all 0.3s ease-in-out;
+  background: #ccc;
+  border-radius: 50%;
+  height: 26px;
+  right: 2px;
+  top: 12px;
+  transition: all 0.3s ease-in-out;
+  width: 26px;
+
+}
+input#input-search-department,input#input-search-account {
+  border: 1px solid #79eef7;
+  font-size: 12px;
+  height: 30px;
+  padding: 4px 8px;
+  position: absolute;
+  width: 50%;
+
+}
+
+input#input-search-department:focus,input#input-search-account:focus {
+  outline: none;
+}
+#divSearchReset{
+  float:right;
+  width:50%
+}
+#searchAcc{
+  float:left;
+  left: 37%;
+
+  margin: 3% 0% 0% 7%;
+}
+#accRefresh{
+  margin:3% 5%;
+  float:right;
+  padding: 2px;
+
+}
+#accRefresh button{
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+
+}
+#depRefresh:hover,#accountRefresh:hover{
+  background-color: rgba(66, 153, 224, 0.8);
+  color:#fff
+}
+#navbar a{
+  border-radius: 3%;
+  }
+
+
+
+

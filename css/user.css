@@ -1,0 +1,58 @@
+#divAvatarUser{
+    width:50%;
+    float:left
+}
+#divTableInfo{
+    margin-top: 10%;
+}
+#divTableInfo button{
+    float:right;
+    margin:5% 5% 2% 0%;
+    width:12%; 
+    border:  1px solid rgb(127, 211, 245,0.7); 
+    background-color: rgba(14, 110, 78, 0.7);
+    text-align: center;
+    color:  #fff;
+    border-radius: 10%;
+}
+#divTableInfo button#edit{
+ margin-right: 3%;
+}
+#divTableInfo button#edit:hover{
+    color:black;
+    background-color: rgb(15, 214, 48);
+
+
+}
+
+#divTableInfo button#logOut:hover{
+    color:black;
+    background-color: rgb(15, 214, 48);
+}
+img#avatarUser {
+  width: 90%;
+  background: rgba(109, 167, 218, 0.5);
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 2% 3%;
+  margin-bottom: 0;
+}
+#userNameForViewUser{
+    margin: 0% 5%;
+    opacity: 0.5;
+}
+#fullNameForViewUser{
+    margin: 0% 5%;
+}
+#userTable {
+    margin-top: 3%;
+    width: 40%;
+    background-color: rgb(202, 177, 145,0.5);
+    border-radius: 10%;
+}
+
+#userTable  td,#userTable  th{
+    width:150px;
+    float: left;
+    padding:3%;
+    }
